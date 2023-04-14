@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: selectionsort, Configuration: Debug Any CPU ------
+1>  selectionsort -> D:\Ust\Day5\selectionsort\selectionsort\bin\Debug\selectionsort.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 9:54 AM and took 00.321 seconds ==========
