@@ -1,0 +1,9 @@
+https://www.c-sharpcorner.com/article/all-about-c-sharp-collections-when-to-choose-what/
+
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+
+
+
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-7.0
