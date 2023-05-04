@@ -1,0 +1,1 @@
+insert into persons(personId,firstname,city)values(109,'aleena','mysore');
