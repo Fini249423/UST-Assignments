@@ -1,0 +1,8 @@
+D:\Ust\Day22\EmoLINQ\EmoLINQ\bin\Debug\EmoLINQ.exe.config
+D:\Ust\Day22\EmoLINQ\EmoLINQ\bin\Debug\EmoLINQ.exe
+D:\Ust\Day22\EmoLINQ\EmoLINQ\bin\Debug\EmoLINQ.pdb
+D:\Ust\Day22\EmoLINQ\EmoLINQ\obj\Debug\EmoLINQ.csproj.AssemblyReference.cache
+D:\Ust\Day22\EmoLINQ\EmoLINQ\obj\Debug\EmoLINQ.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day22\EmoLINQ\EmoLINQ\obj\Debug\EmoLINQ.csproj.CoreCompileInputs.cache
+D:\Ust\Day22\EmoLINQ\EmoLINQ\obj\Debug\EmoLINQ.exe
+D:\Ust\Day22\EmoLINQ\EmoLINQ\obj\Debug\EmoLINQ.pdb

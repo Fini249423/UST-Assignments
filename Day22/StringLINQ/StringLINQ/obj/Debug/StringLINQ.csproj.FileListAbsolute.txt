@@ -1,0 +1,8 @@
+D:\Ust\Day22\StringLINQ\StringLINQ\bin\Debug\StringLINQ.exe.config
+D:\Ust\Day22\StringLINQ\StringLINQ\bin\Debug\StringLINQ.exe
+D:\Ust\Day22\StringLINQ\StringLINQ\bin\Debug\StringLINQ.pdb
+D:\Ust\Day22\StringLINQ\StringLINQ\obj\Debug\StringLINQ.csproj.AssemblyReference.cache
+D:\Ust\Day22\StringLINQ\StringLINQ\obj\Debug\StringLINQ.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day22\StringLINQ\StringLINQ\obj\Debug\StringLINQ.csproj.CoreCompileInputs.cache
+D:\Ust\Day22\StringLINQ\StringLINQ\obj\Debug\StringLINQ.exe
+D:\Ust\Day22\StringLINQ\StringLINQ\obj\Debug\StringLINQ.pdb
