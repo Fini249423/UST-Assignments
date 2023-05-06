@@ -1,0 +1,8 @@
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\bin\Debug\ExtensionDemo.exe.config
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\bin\Debug\ExtensionDemo.exe
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\bin\Debug\ExtensionDemo.pdb
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\obj\Debug\ExtensionDemo.csproj.AssemblyReference.cache
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\obj\Debug\ExtensionDemo.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\obj\Debug\ExtensionDemo.csproj.CoreCompileInputs.cache
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\obj\Debug\ExtensionDemo.exe
+D:\Ust\Day23\ExtensionDemo\ExtensionDemo\obj\Debug\ExtensionDemo.pdb

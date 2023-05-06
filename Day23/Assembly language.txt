@@ -1,0 +1,67 @@
+It is a low level language readable by human.
+
+its intented to communicate with computer hardware,consist of binary and hexadecimal charcaters.
+
+it uses abbreviations known as mnemonics like ADD,SUB etc
+
+the translators of assembly language is assembler that translates mnemonics to machine code.
+
+
+
+Advantages:
+
+less instrctions to get the result as compared to machine language.
+
+keep trace in memory locations.
+
+faster in speed as its execution time is less.
+
+
+
+
+Disadvantages:
+
+difficult to understand.
+
+More memory of the computer to run the long programs.
+
+
+
+
+Properties:
+
+Assemblies are implemented as .exe or .dll files.
+
+For libraries that target .NET Framework, you can share assemblies between applications by putting them in the global assembly cache (GAC).
+ You must strong-name assemblies before you can include them in the GAC. For more information, see Strong-named assemblies.
+
+Assemblies are only loaded into memory if they're required. If they aren't used, they aren't loaded. 
+Therefore, assemblies can be an efficient way to manage resources in larger projects.
+
+You can programmatically obtain information about an assembly by using reflection. For more information, see Reflection (C#) or Reflection (Visual Basic).
+
+You can load an assembly just to inspect it by using the MetadataLoadContext class on .NET and .NET Framework. MetadataLoadContext replaces the Assembly.
+ReflectionOnlyLoad methods.
+
+
+
+Assemblies:
+
+An assembly is a basic building blocks of .NET framework applications for version control, safety priviledges.
+
+It is a collection of logical unit functionality,resources and collection of types.
+
+it is bascially a compiled code that can be executed but the CLR.
+
+assemblies of two types: .exe  and  .dll
+
+Two types are private assembly and shared
+
+private assembly: that it is used by single application only.
+
+shared assembly: that can be used in more than one project known to be shared assembly. Shared assembly are installed in the GAC and are made available 
+to all the .NET applications .
+
+GAC:
+Global Assembly Cache
+It is a memory that is used to store the assemblies that are meant to be used by various applications.

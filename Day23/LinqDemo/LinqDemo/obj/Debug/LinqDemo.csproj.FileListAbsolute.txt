@@ -1,0 +1,8 @@
+D:\Ust\Day23\LinqDemo\LinqDemo\bin\Debug\LinqDemo.exe.config
+D:\Ust\Day23\LinqDemo\LinqDemo\bin\Debug\LinqDemo.exe
+D:\Ust\Day23\LinqDemo\LinqDemo\bin\Debug\LinqDemo.pdb
+D:\Ust\Day23\LinqDemo\LinqDemo\obj\Debug\LinqDemo.csproj.AssemblyReference.cache
+D:\Ust\Day23\LinqDemo\LinqDemo\obj\Debug\LinqDemo.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day23\LinqDemo\LinqDemo\obj\Debug\LinqDemo.csproj.CoreCompileInputs.cache
+D:\Ust\Day23\LinqDemo\LinqDemo\obj\Debug\LinqDemo.exe
+D:\Ust\Day23\LinqDemo\LinqDemo\obj\Debug\LinqDemo.pdb
