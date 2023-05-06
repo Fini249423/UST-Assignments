@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ASSIGNMENTSQL1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DEPARTMENTS">
+          <Key>
+            <PropertyRef Name="DEPARTMENT_ID" />
+          </Key>
+          <Property Name="DEPARTMENT_ID" Type="int" Nullable="false" />
+          <Property Name="DEPARTMENT_NAME" Type="varchar" MaxLength="25" />
+          <Property Name="MANAGER_ID" Type="int" />
+          <Property Name="LOCATION_ID" Type="int" />
+        </EntityType>
+        <EntityType Name="EMP">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="NAME" Type="varchar" MaxLength="20" />
+          <Property Name="SAL" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="COMM_PCT" Type="decimal" Precision="5" Scale="2" />
+          <Property Name="PF" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="HRA" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="TEARN" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="TDED" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="NET" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="ASSIGNMENTSQL1ModelStoreContainer">
+          <EntitySet Name="DEPARTMENTS" EntityType="Self.DEPARTMENTS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EMP" EntityType="Self.EMP" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ASSIGNMENTSQL1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DEPARTMENT">
+          <Key>
+            <PropertyRef Name="DEPARTMENT_ID" />
+          </Key>
+          <Property Name="DEPARTMENT_ID" Type="Int32" Nullable="false" />
+          <Property Name="DEPARTMENT_NAME" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="MANAGER_ID" Type="Int32" />
+          <Property Name="LOCATION_ID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="EMP">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="NAME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SAL" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="COMM_PCT" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="PF" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="HRA" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="TEARN" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="TDED" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="NET" Type="Decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="ASSIGNMENTSQL1Entities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DEPARTMENTS" EntityType="Self.DEPARTMENT" />
+          <EntitySet Name="EMPs" EntityType="Self.EMP" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ASSIGNMENTSQL1ModelStoreContainer" CdmEntityContainer="ASSIGNMENTSQL1Entities2">
+          <EntitySetMapping Name="DEPARTMENTS">
+            <EntityTypeMapping TypeName="ASSIGNMENTSQL1Model.DEPARTMENT">
+              <MappingFragment StoreEntitySet="DEPARTMENTS">
+                <ScalarProperty Name="DEPARTMENT_ID" ColumnName="DEPARTMENT_ID" />
+                <ScalarProperty Name="DEPARTMENT_NAME" ColumnName="DEPARTMENT_NAME" />
+                <ScalarProperty Name="MANAGER_ID" ColumnName="MANAGER_ID" />
+                <ScalarProperty Name="LOCATION_ID" ColumnName="LOCATION_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EMPs">
+            <EntityTypeMapping TypeName="ASSIGNMENTSQL1Model.EMP">
+              <MappingFragment StoreEntitySet="EMP">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NAME" ColumnName="NAME" />
+                <ScalarProperty Name="SAL" ColumnName="SAL" />
+                <ScalarProperty Name="COMM_PCT" ColumnName="COMM_PCT" />
+                <ScalarProperty Name="PF" ColumnName="PF" />
+                <ScalarProperty Name="HRA" ColumnName="HRA" />
+                <ScalarProperty Name="TEARN" ColumnName="TEARN" />
+                <ScalarProperty Name="TDED" ColumnName="TDED" />
+                <ScalarProperty Name="NET" ColumnName="NET" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
