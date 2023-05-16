@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+<p>@@249423</p>
+<a href="mailto:Support@contoso.com">Support@contoso.com</a>
+
+@*Implicit razor expression*@
+<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2016)</p>
+@*<p>@await DoSomething("hello", "world")</p>*@
+
+@*Explicit razor Expressions*@
+<p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+<p>Last week: @DateTime.Now - TimeSpan.FromDays(7)</p>
+<p>Last week: 7/7/2016 4:39:52 PM - TimeSpan.FromDays(7)</p>
+@{
+    var joe = new Person("Joe", 33);
+}
+
+<p>Age@(joe.Age)</p>
+
+@*Express Encoding*@
+@("<span>Hello World</span>")
+&lt;span&gt;Hello World&lt;/span&gt;
+@Html.Raw("<span>Hello World</span>")
+<span>Hello World</span>
+
+@{
+    var quote = "The future depends on what you do today. - Mahatma Gandhi";
+}
+
+<p>@quote</p>
+
+@{
+    quote = "Hate cannot drive out hate, only love can do that. - Martin Luther King, Jr.";
+}
+
+<p>@quote</p>
+
+@{
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King, Jr.");
+}
