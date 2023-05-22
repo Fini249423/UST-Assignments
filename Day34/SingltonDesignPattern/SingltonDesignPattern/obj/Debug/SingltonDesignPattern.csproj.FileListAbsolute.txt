@@ -1,0 +1,8 @@
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\bin\Debug\SingltonDesignPattern.exe.config
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\bin\Debug\SingltonDesignPattern.exe
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\bin\Debug\SingltonDesignPattern.pdb
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\obj\Debug\SingltonDesignPattern.csproj.AssemblyReference.cache
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\obj\Debug\SingltonDesignPattern.csproj.SuggestedBindingRedirects.cache
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\obj\Debug\SingltonDesignPattern.csproj.CoreCompileInputs.cache
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\obj\Debug\SingltonDesignPattern.exe
+D:\Day34\SingltonDesignPattern\SingltonDesignPattern\obj\Debug\SingltonDesignPattern.pdb
