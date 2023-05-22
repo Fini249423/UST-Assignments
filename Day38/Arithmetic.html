@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head> ARITHMETIC OPERATIONS</head><br>
+<body>
+<label>Number1</label>
+<input type="text"  id="num1"/><br><br>
+<label>Number2</label>
+<input type="text"  id="num2"/><br><br>
+<label>Operator</label>
+<select id ="operator">
+                <option value="+">+</option>  
+                <option value="-">-</option>  
+                <option value="*">*</option>  
+                <option value="/">/</option>   
+            </select><br><br>
+<label>Result</label>
+<input type="text" id="result"/><br>
+
+<button onclick="calculate()">Calculate</button>
+<script>
+function calculate(){
+var num1=parseFloat(document.getElementById("num1").value);
+var num2=parseFloat(document.getElementById("num2").value);
+var operator=document.getElementById("operator").value;
+var result;
+switch(operator){
+case "+":
+result=num1+num2;
+break;
+case "-":
+result=num1-num2;
+break;
+case "*":
+result=num1*num2;
+break;
+case "/":
+result=num1/num2;
+break;
+default:
+result="Invalid Operator";
+}
+document.getElementById("result").value=result;
+}
+</script>
+</body>
+</html>
