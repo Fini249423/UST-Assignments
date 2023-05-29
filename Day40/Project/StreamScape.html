@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     <section>
+        <div class="headercontainer">
+            <div class="headerpart1">
+                <div class="logo">
+                    <img src="SSlogo.png" alt="">
+                </div>
+                <div class="register">
+                    <!--<button class="lngbtn"><ion-icon style="margin-righ:2px;" name="globe-outline"></ion-icon>English <i style="margin-bottom: 3px;" class="fa fa-caret-down" aria-hidden="true"></i></button>-->
+                     <!--<button class="signinbtn">Sign In</button>-->
+                     <!--<button class="signinbtn" onclick="myFunction()"> Sign In</button>
+                     <script>
+                        function myFunction(){
+                            alert("successful");
+                        }
+
+                     </script>-->
+                     <!--<a href="#" class="button">Sign In</a>-->
+
+                      <!--<button class="signinbtn">Sign In</button>-->
+                     <button class="signinbtn" id="button"> Sign In</button>
+                     
+                    
+                                        
+                     
+                </div>
+                <div class="popup">
+                    <div class="popup-content">
+                        <img src="cross.png" alt="" class="close">
+                        <img src="user.jpg" alt="" style="width: 60px;">
+                        <div class="input">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+
+                        </div>
+                        <button class="signinbtn" id="alert">Sign In</button>
+                       
+                    </div>
+                </div>
+                <script>
+                    document.getElementById("button").addEventListener("click",function(){
+                        document.querySelector(".popup").style.display = "flex";
+                    })
+                    document.querySelector(".close").addEventListener("click",function(){
+                        document.querySelector(".popup").style.display ="none";
+                    })
+                </script>
+                <script>
+                    document.addEventListener("DOMContentLoaded",function() {
+                        var signinbtn=document.getElementById("alert");
+                        signinbtn.addEventListener("click",function(){
+                            alert("Sign-In Successfull");
+
+                        });
+
+                    });
+                </script>
+            </div>
+
+            <div class="headerpart2">
+
+                <div> <span class="spanh1">Unlimited movies, TV</span></div>
+                <div style="margin-left:65px ;"> <span  class="spanh1">shows and more.</span></div>
+                <div> <span class="spanh2">Watch anywhere. Cancel anytime.</span></div>
+                <div style=" margin-top: 40px;"> <span class="spanh3">Ready to watch? Enter your email to create or restart your membership.</span></div>
+                <div class="emailbox"><input type="text"><button class="btn">Get Started&nbsp;</button></div>
+                
+            </div>
+        </div>
+     </section>
+    </header>
+    
+
+    <main>
+        <div class="linbreaker">
+         
+        </div>
+        <!-- section1 -->
+        <section>
+            <div class="section1">
+                <div class="section1parent">
+                    <div class="section1leftchild">
+                        <div id="#movies" class="headfont">
+                            <!-- Movies<br><br>  -->
+                            <a href="movies.html"> Movies </a>
+        
+                        </div>
+                        <br><br>
+        
+                        <div class="contentfont">
+                            
+                            Watch on smart TVs, PlayStation, Xbox,<br>
+                                Chromecast, Apple TV, Blu-ray players and<br>
+                                more.
+                        </div>
+                    </div>
+                    <div class="section1rightchild">
+                       <!-- <div class="divtvparent">
+                        <div > -->
+                             <video class="video1" autoplay loop muted>
+                                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+                            </video> 
+                        <!-- </div>
+
+                        <div> -->
+                            <img  class="tv" style="width: 550px; margin-left: -270px;"  src="assets/tv.png" alt="">
+                        <!-- </div>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section2 -->
+        <div class="linbreaker">
+         
+        </div>
+        <section>
+            <div class="section2">
+                <div class="section1parent">
+                    <div class="section2leftchild">
+                        <div>
+                            <img class="t"  style="height: 350px; margin-bottom: 100px; margin-right: 5px;"  src="series.png" alt="">
+                        </div>
+                       
+                    </div>
+                    <div class="section2rightchild">
+                         <div class="headfont">
+                            Series
+
+                    
+        
+                        </div>
+        
+                        <div class="contentfont">
+                            Save your favourites easily and always have <br>
+                            something to watch.
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section3 -->
+        <div class="linbreaker">
+         
+        </div>
+        <section>
+            <div class="section1">
+                <div class="section1parent">
+                    <div class="section1leftchild">
+                        <div class="headfont">
+                            Kids Zone<br>
+
+        
+                        </div>
+        
+                        <div class="contentfont">
+                            Send children on adventures with their favourite 
+                                <br>characters in a space made just for them free with your membership
+                          
+                        </div>
+                    </div>
+                    <div class="section1rightchild">
+                        <!--<video class="video2" autoplay loop muted>
+                            <source " src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4">
+                        </video> -->
+                        
+                            <img  class="tv2" style="width: 550px;"  src="kids.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!-- section4 -->
+       <div class="linbreaker">
+         
+       </div>
+        <section>
+            <div class="section2">
+                <div class="section1parent">
+                    <div class="section2leftchild">
+                        <div>
+                            <img   style="height: 350px;"  src="TvShows.jpg" alt="">
+                        </div>
+                       
+                    </div>
+                    <div class="section2rightchild">
+                         <div class="headfont">
+                            Other TV Shows. 
+                            
+        
+                        </div>
+        
+                        <div class="contentfont">
+                            Entertainment with your 
+                        <br> family and friends
+                        <br>  with your free membership.
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section5 -->
+        <section class="section5">
+            <div class="linbreaker">
+         
+            </div>
+            <div class="s5container">
+                <h1 class="heading">Frequently Asked Questions</h1><br>
+              
+                <div class="rectnglebox">
+                    <div>
+                    <p>What StreamScape ?  </p>
+                </div>
+
+                <div>
+                    <span class="plusicon">+</span>
+                </div>
+                </div>
+    
+                <div class="rectnglebox" style="line-height: 1.2;">
+                    <div>
+                        <p>How much does StreamScape cost ?</p>
+
+                    </div>
+                  
+                    <div>
+                        <span class="plusicon">+</span>
+                    </div>
+
+    
+                </div>
+    
+                <div class="rectnglebox" style="line-height: 1.2;">
+                    <p>Where can I watch ?</p>
+                    <div>
+                        <span class="plusicon">+</span>
+                    </div>
+    
+                </div>
+                <div class="rectnglebox" style="line-height: 1.2;">
+                    <p>How do I cancel ?</p>
+                    <div>
+                        <span class="plusicon">+</span>
+                    </div>
+    
+                </div>
+                <div class="rectnglebox" style="line-height: 1.2;">
+                    <p>What can I watch on StreamScape ?</p>
+
+                    <div>
+                        <span class="plusicon">+</span>
+                    </div>
+    
+                </div>
+                <div class="rectnglebox" style="line-height: 1.2;">
+                    <p>Is StreamScape good for kids ?</p>
+                    <div>
+                        <span class="plusicon">+</span>
+                    </div>
+    
+                </div>
+                <!--<div style="margin-top: 60px ;color:white; font-size: larger; margin-left: 90px;">
+                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                </div>
+                <div class="inptbox">
+                    <div class="emailbox" style="margin-left: 30px;"><input type="text"><button class="btn">Get Started&nbsp;></button></div>
+                </div>-->
+            </div>
+    
+        </section>
+
+
+        
+
+
+    </main>
+
+    <footer>
+        <div class="linbreaker">
+         
+        </div>
+
+
+        <div class="container">
+            <table align="center">
+                <tr>
+                    <td>Questions? Call 000-800-040-1843</td>
+                </tr>
+                <tr>
+                    <td>FAQ</td>
+                    <td>Help Centre</td>
+                    <td>Account</td>
+                    <td>Media Centre</td>
+                </tr>
+                <tr>
+                    <td>Investor Relations</td>
+                    <td>Jobs</td>
+                    <td>Ways to Watch</td>
+                    <td>Terms of Use</td>
+                </tr>
+                <tr>
+                    <td>Privacy</td>
+                    <td>Cookie Preferences</td>
+                    <td>Corporate Information</td>
+                    <td>Contact Us</td>
+                </tr>
+                <tr>
+                    <td>Speed Test</td>
+                    <td>Legal Notices</td>
+                    <td>Only on StreamScape</td>
+
+                </tr>
+            </table>
+            
+        </div>
+
+
+
+    </footer>
+
+
+
+</body>
+</html>
