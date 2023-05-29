@@ -1,0 +1,8 @@
+D:\Ust\Day41\anagrams\anagrams\bin\Debug\anagrams.exe.config
+D:\Ust\Day41\anagrams\anagrams\bin\Debug\anagrams.exe
+D:\Ust\Day41\anagrams\anagrams\bin\Debug\anagrams.pdb
+D:\Ust\Day41\anagrams\anagrams\obj\Debug\anagrams.csproj.AssemblyReference.cache
+D:\Ust\Day41\anagrams\anagrams\obj\Debug\anagrams.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day41\anagrams\anagrams\obj\Debug\anagrams.csproj.CoreCompileInputs.cache
+D:\Ust\Day41\anagrams\anagrams\obj\Debug\anagrams.exe
+D:\Ust\Day41\anagrams\anagrams\obj\Debug\anagrams.pdb
