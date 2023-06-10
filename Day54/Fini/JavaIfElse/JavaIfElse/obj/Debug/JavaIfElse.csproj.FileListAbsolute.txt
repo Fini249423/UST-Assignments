@@ -1,0 +1,8 @@
+D:\Ust\Day54\JavaIfElse\JavaIfElse\bin\Debug\JavaIfElse.exe.config
+D:\Ust\Day54\JavaIfElse\JavaIfElse\bin\Debug\JavaIfElse.exe
+D:\Ust\Day54\JavaIfElse\JavaIfElse\bin\Debug\JavaIfElse.pdb
+D:\Ust\Day54\JavaIfElse\JavaIfElse\obj\Debug\JavaIfElse.csproj.AssemblyReference.cache
+D:\Ust\Day54\JavaIfElse\JavaIfElse\obj\Debug\JavaIfElse.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day54\JavaIfElse\JavaIfElse\obj\Debug\JavaIfElse.csproj.CoreCompileInputs.cache
+D:\Ust\Day54\JavaIfElse\JavaIfElse\obj\Debug\JavaIfElse.exe
+D:\Ust\Day54\JavaIfElse\JavaIfElse\obj\Debug\JavaIfElse.pdb

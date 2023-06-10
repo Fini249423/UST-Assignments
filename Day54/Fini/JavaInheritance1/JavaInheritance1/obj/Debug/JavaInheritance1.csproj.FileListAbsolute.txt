@@ -1,0 +1,8 @@
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\bin\Debug\JavaInheritance1.exe.config
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\bin\Debug\JavaInheritance1.exe
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\bin\Debug\JavaInheritance1.pdb
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\obj\Debug\JavaInheritance1.csproj.AssemblyReference.cache
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\obj\Debug\JavaInheritance1.csproj.SuggestedBindingRedirects.cache
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\obj\Debug\JavaInheritance1.csproj.CoreCompileInputs.cache
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\obj\Debug\JavaInheritance1.exe
+D:\Ust\Day54\JavaInheritance1\JavaInheritance1\obj\Debug\JavaInheritance1.pdb
